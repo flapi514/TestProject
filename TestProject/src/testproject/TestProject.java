@@ -5,17 +5,24 @@
  */
 package testproject;
 
+import java.sql.Connection;
+
 /**
  *
  * @author flapi
  */
 public class TestProject {
-
+    
+    private final Connection con;
+    
+    TestProject(){
+       
+    }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        TestProject project = new TestProject();
     }
     
 }
