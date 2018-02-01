@@ -16,7 +16,12 @@ public class TestProject {
     private final Connection con;
     
     TestProject(){
-       
+        
+        con = null;
+    }
+    
+    TestProject(Connection con){
+        this.con = con;
     }
     /**
      * @param args the command line arguments
